@@ -8,6 +8,10 @@
             //Generic class is fixed class with any data type we make it like this: public class ClassName<T>
             //it's avoid doublicates in code and it's better than object because object need Boxing/UnBoxing and this not good perform and can make run time error
             #endregion
+
+            #region Q3
+            //it's a generic that can take different type at once like: pair<TKey,TValue> => pair<int,string>
+            #endregion
         }
     }
 }
