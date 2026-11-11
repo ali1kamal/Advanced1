@@ -20,11 +20,16 @@
             #region Q4
             //Generic method it's a method which is fixed with data type made for avoiding doublicates
 
-            Swap swap = new Swap();
-            int x = 10;
-            int y=50;
-            swap.Swaping<int>(ref x,ref y);
-            Console.WriteLine($"X: {x} , Y: {y}");
+            //Swap swap = new Swap();
+            //int x = 10;
+            //int y=50;
+            //swap.Swaping<int>(ref x,ref y);
+            //Console.WriteLine($"X: {x} , Y: {y}");
+            #endregion
+
+            #region Q5
+            Maximum max = new Maximum();
+            Console.WriteLine(max.FindMax<int>(new List<int> { 10, 20, 30, 50, 40 }));
             #endregion
         }
     }
