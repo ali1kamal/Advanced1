@@ -14,7 +14,17 @@
 
 
 
-            Pair<int,string> pair = new Pair<int,string>(10,"Ali");
+            //Pair<int,string> pair = new Pair<int,string>(10,"Ali");
+            #endregion
+
+            #region Q4
+            //Generic method it's a method which is fixed with data type made for avoiding doublicates
+
+            Swap swap = new Swap();
+            int x = 10;
+            int y=50;
+            swap.Swaping<int>(ref x,ref y);
+            Console.WriteLine($"X: {x} , Y: {y}");
             #endregion
         }
     }
