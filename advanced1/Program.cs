@@ -11,6 +11,10 @@
 
             #region Q3
             //it's a generic that can take different type at once like: pair<TKey,TValue> => pair<int,string>
+
+
+
+            Pair<int,string> pair = new Pair<int,string>(10,"Ali");
             #endregion
         }
     }
